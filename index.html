@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mingda's Portfolio</title>
+</head>
+<body>
+  <header id="home">
+    <h2 class="nav-title">Mingda's Portfolio</h2>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-content">
+    <section id="about">
+      <div class="about-content">
+        <img class="profile-img" src="./Mingda.png" alt="Mingda's profile picture">
+        <p>Hi, my name is Mingda and I am a master's student in Computer Science at University of San Francisco and I currently live in the beautiful 
+          city of San Francisco. I have two years experience working as a full-stack engineer.</p>
+      </div>  
+    </section>
+    <section id="experiences" class="projects-section">
+      <h2>Experiences</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <h3>Virtual Hospital Africa</h3>
+          <p>Full-stack Software Engineer Intern</p>
+          <p><i>09/2024 - Present</i></p>
+        </div>
+        <div class="project-card">
+          <h3>Amazon Web Services</h3>
+          <p>Frontend Engineer Intern</p>
+          <p><i>05/2024 - 08/2024</i></p>
+        </div>
+        <div class="project-card">
+          <h3>Openprise</h3>
+          <p>Software Engineer Intern</p>
+          <p><i>06/2023 - 08/2023</i></p>
+        </div>
+        <div class="project-card">
+          <h3>PwC</h3>
+          <p>Full-stack Software Engineer</p>
+          <p><i>08/2022 - 08/2021</i></p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+            <h3>Classroom Finder</h3>
+            <p>Helps students to find classrooms in USF campus</p>
+            <button class="primary-btn"><a href="https://usfca.campusm.exlibrisgroup.com/campusm/home#select-profile">Link</a></button>
+        </div>
+        <div class="project-card">
+          <h3>SOC2 Evidence</h3>
+          <p>Automate evidence-gathering for SOC2 compliance requirements</p>
+          <button class="primary-btn"><a href="https://github.com/mlim-usfca/soc2evidence">Link</a></button>
+        </div>
+      </div>
+    </section>
+    <section id="hobbies" class="projects-section">
+      <h2>Hobbies</h2>
+      <div class="project-cards">
+        <div class="project-card">
+            <h3>Body</h3>
+            <p>I love running in the Golden Gate Park during the golden hour</p>
+        </div>
+        <div class="project-card">
+          <h3>Mind</h3>
+          <p>I'm really into reading memoirs recently, and the book I am readding currently is <i>Beautiful Country</i> by Qian Julie Wang</p>
+        </div>
+        <div class="project-card">
+          <h3>Entertainment</h3>
+          <p>I'm listening to Chappel Roan's The Rise and Fall of a Midwest Princess and watching Modern Family recently</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <form id="contact-form-submission" action="submit" method="post">
+        <div class="contact-form">
+          <h2>Contact</h2>
+          <div class="contact-card">
+            Name: <input id="name" class="input-field" type="text"/>
+            Email: <input id="email" class="input-field email" type="email"/>
+            Message: <textarea id="message" class="textarea-field message"></textarea>
+            <button id="submit-btn" class="primary-btn">Submit</button>
+          </div>
+          <div id="confirmation-msg"></div>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>This website is created by Mingda Ma</footer>
+  <script src="./script.js"></script>
+</body>
+</html>
